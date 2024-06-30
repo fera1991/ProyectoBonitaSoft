@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Gadget Galaxy" description="Gadget Galaxy es una empresa de venta de productos tecnológicos relacionados al IoT ubicada en Inglaterra.">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Empleado1">
+      <firstName>Fernando</firstName>
+      <lastName>Galdamez</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Jefe1">
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="analistaPlantilla1">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="analistaCompensacion1">
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Analista de compensacion">
+      <displayName>Analista de compensacion</displayName>
+      <description>Rol asignado a usuarios encargados de validar las solicitudes de ausencias</description>
+    </role>
+    <role name="Analista de Planilla">
+      <displayName>Analista de Planilla</displayName>
+      <description>Rol asignado a usuarios que registran las ausencias y permisos aprobados en el sistema de planilla y gestionan los pagos correspondientes.</description>
+    </role>
+    <role name="Empleado">
+      <displayName>Empleado</displayName>
+    </role>
+    <role name="Jefe">
+      <displayName>Jefe</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="areaPlantilla">
+      <displayName>areaPlantilla</displayName>
+      <description>El area de plantillas para el registro del expediente y validaciones.</description>
+    </group>
+    <group name="areaCompensacion">
+      <displayName>areaCompensacion</displayName>
+      <description>El area de compensaciones donde se realizan la validacion de la solucitudes de vacaciones.</description>
+    </group>
+    <group name="empleados">
+      <displayName>empleados</displayName>
+    </group>
+    <group name="jefes">
+      <displayName>jefes</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Empleado1</userName>
+      <roleName>Empleado</roleName>
+      <groupName>empleados</groupName>
+    </membership>
+    <membership>
+      <userName>Jefe1</userName>
+      <roleName>Jefe</roleName>
+      <groupName>jefes</groupName>
+    </membership>
+    <membership>
+      <userName>analistaPlantilla1</userName>
+      <roleName>Analista de Planilla</roleName>
+      <groupName>areaPlantilla</groupName>
+    </membership>
+    <membership>
+      <userName>analistaCompensacion1</userName>
+      <roleName>Analista de compensacion</roleName>
+      <groupName>areaCompensacion</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
