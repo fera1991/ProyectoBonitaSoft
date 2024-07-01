@@ -5,6 +5,7 @@
     <user userName="Empleado1">
       <firstName>Fernando</firstName>
       <lastName>Galdamez</lastName>
+      <manager>Jefe1</manager>
       <personalData/>
       <professionalData/>
       <password encrypted="false">123</password>
@@ -17,13 +18,13 @@
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
-    <user userName="analistaPlantilla1">
+    <user userName="ap1">
       <personalData/>
       <professionalData/>
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
-    <user userName="analistaCompensacion1">
+    <user userName="ac1">
       <personalData/>
       <professionalData/>
       <password encrypted="false">123</password>
@@ -74,12 +75,12 @@
       <groupName>jefes</groupName>
     </membership>
     <membership>
-      <userName>analistaPlantilla1</userName>
+      <userName>ap1</userName>
       <roleName>Analista de Planilla</roleName>
       <groupName>areaPlantilla</groupName>
     </membership>
     <membership>
-      <userName>analistaCompensacion1</userName>
+      <userName>ac1</userName>
       <roleName>Analista de compensacion</roleName>
       <groupName>areaCompensacion</groupName>
     </membership>
