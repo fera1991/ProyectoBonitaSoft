@@ -1,10 +1,10 @@
 {
-  "id" : "InstanciaSolicitud",
-  "name" : "InstanciaSolicitud",
+  "id" : "InstanciarSolicitud",
+  "name" : "InstanciarSolicitud",
   "type" : "form",
-  "uuid" : "41b048d4-e40a-4603-ad26-393a3bd9ae29",
+  "uuid" : "039f9186-d24a-427e-9233-ec4bda06f130",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1719814650156,
+  "lastUpdate" : 1719911082902,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "ab747594-cf4e-4b6e-b1c9-ff1fc26bd80d",
+        "reference" : "b4c50659-7bbb-4647-a7b5-08034e55e65f",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -23,7 +23,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "5f0fc9e8-b087-40b1-9238-3a98c36c4638",
+          "reference" : "1adf9990-7465-45b8-b8a9-9b0429daa764",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -62,7 +62,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "596f8dcb-011e-458f-a29a-f90cc3b1421c",
+                "reference" : "a752e6af-cee6-4ec8-a504-b8f341cea60d",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -94,10 +94,100 @@
                     "value" : 12
                   }
                 },
-                "reference" : "674bd71f-d9ba-4d18-9fbc-abe718d27061",
+                "reference" : "34b22d7d-939a-4fa9-b3af-5fe5f3cb5739",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Nombre_usuario"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "formInput.solicitudAusenciaInput.nombre_usuario"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "94b4987e-cb49-4c51-856d-836a4384a7b8",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
                   [
                     {
                       "type" : "component",
@@ -182,7 +272,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "b9ab30e1-b850-4214-b87b-4e020abe3748",
+                      "reference" : "b99faae4-9d2f-41ca-a17c-978d0ec8a650",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -270,7 +360,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "97bcf7ed-1deb-40ad-96fb-cf6ba747781d",
+                      "reference" : "f933f8b0-6fb0-47fc-99be-0ffd67f01994",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -312,7 +402,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Descripcion"
+                          "value" : "area"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -327,7 +417,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "formInput.solicitudAusenciaInput.descripcion"
+                          "value" : "formInput.solicitudAusenciaInput.area"
                         },
                         "required" : {
                           "type" : "constant",
@@ -360,7 +450,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "81b04ca1-4e06-4b5e-9cd4-a93b62298a11",
+                      "reference" : "6c0c3828-7d74-47f9-89b7-19a6dbd65770",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -370,33 +460,33 @@
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
                         "xs" : 12,
-                        "lg" : 12
+                        "sm" : 12,
+                        "md" : 6,
+                        "lg" : 6
                       },
                       "propertyValues" : {
-                        "labelHidden" : {
+                        "cssClasses" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : ""
                         },
                         "hidden" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "labelPosition" : {
+                        "disabled" : {
                           "type" : "constant",
-                          "value" : "top"
+                          "value" : false
                         },
-                        "cssClasses" : {
+                        "required" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : true
                         },
-                        "labelWidth" : {
+                        "allowHTML" : {
                           "type" : "constant",
-                          "value" : 1
+                          "value" : false
                         },
-                        "readOnly" : {
+                        "labelHidden" : {
                           "type" : "constant",
                           "value" : false
                         },
@@ -404,40 +494,50 @@
                           "type" : "interpolation",
                           "value" : "Tipo_ausencia"
                         },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
                         "placeholder" : {
+                          "type" : "interpolation",
+                          "value" : "Select an option"
+                        },
+                        "availableValues" : {
+                          "type" : "constant",
+                          "value" : [
+                            "Vacaciones Anuales",
+                            "Día Hábil por Cumpleaños",
+                            "Días Discrecionales",
+                            "Permiso Especial"
+                          ]
+                        },
+                        "displayedKey" : {
+                          "type" : "expression",
+                          "value" : ""
+                        },
+                        "returnedKey" : {
                           "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
                         },
                         "value" : {
                           "type" : "variable",
                           "value" : "formInput.solicitudAusenciaInput.tipo_ausencia"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : true
                         }
                       },
-                      "reference" : "b3f0a7bb-8e02-4f01-953d-a15629b5ed97",
+                      "reference" : "9a82356f-357d-450f-b316-4b39684ce304",
                       "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
+                      "id" : "pbSelect"
+                    },
                     {
                       "type" : "component",
                       "dimension" : {
                         "md" : 6,
                         "sm" : 12,
                         "xs" : 12,
-                        "lg" : 12
+                        "lg" : 6
                       },
                       "propertyValues" : {
                         "hidden" : {
@@ -504,7 +604,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "7d60371c-24d4-423f-b805-8a4c112f2cc7",
+                      "reference" : "8647a09f-8661-420c-9ee2-e6ea1699775b",
                       "hasValidationError" : false,
                       "id" : "pbDatePicker",
                       "description" : ""
@@ -584,7 +684,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "00589ac5-a215-4274-b232-c45b7a8648eb",
+                      "reference" : "e4d19104-7811-40de-b3f1-8a46abad229b",
                       "hasValidationError" : false,
                       "id" : "pbDatePicker",
                       "description" : ""
@@ -662,9 +762,345 @@
                           "value" : false
                         }
                       },
-                      "reference" : "129e196c-7184-491f-a71a-fbc714d89927",
+                      "reference" : "c15e68af-8baf-47f7-968e-c941723d13a6",
                       "hasValidationError" : false,
                       "id" : "pbDatePicker",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "dateFormat" : {
+                          "type" : "constant",
+                          "value" : "MM/dd/yyyy"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Fecha_nacimiento"
+                        },
+                        "type" : {
+                          "type" : "constant"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "todayLabel" : {
+                          "type" : "constant",
+                          "value" : "Today"
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "showToday" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "placeholder" : {
+                          "type" : "constant",
+                          "value" : "Enter a date (mm/dd/yyyy)"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "formInput.solicitudAusenciaInput.fecha_nacimiento"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "c64125d9-d1d6-43ef-9156-4a639e4fabf3",
+                      "hasValidationError" : false,
+                      "id" : "pbDatePicker",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "dateFormat" : {
+                          "type" : "constant",
+                          "value" : "MM/dd/yyyy"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Fecha_contratacion"
+                        },
+                        "type" : {
+                          "type" : "constant"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "todayLabel" : {
+                          "type" : "constant",
+                          "value" : "Today"
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "showToday" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "placeholder" : {
+                          "type" : "constant",
+                          "value" : "Enter a date (mm/dd/yyyy)"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "formInput.solicitudAusenciaInput.fecha_contratacion"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        }
+                      },
+                      "reference" : "680aa72d-18ac-449c-96bb-23aad1d643b0",
+                      "hasValidationError" : false,
+                      "id" : "pbDatePicker",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Dias_permiso_especial"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "number"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "formInput.solicitudAusenciaInput.dias_permiso_especial"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "bb1920d0-c145-4b85-9dfa-e50aa7d9491a",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Dias_vacaciones_tradicionales"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "number"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "formInput.solicitudAusenciaInput.dias_vacaciones_tradicionales"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "c9058d14-f5d6-4fb1-b5d6-d18da8780a97",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
                       "description" : ""
                     }
                   ],
@@ -726,7 +1162,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "9cabf0a8-50af-44ed-8c8c-a90d50d6868f",
+                      "reference" : "5b497b89-a334-4fff-8d68-42240915ec07",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -779,7 +1215,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "b7cb2ba6-ebf8-464b-b8b5-b842f68045b6",
+                      "reference" : "284bd67e-6d86-4bf0-b40f-5aef8e23b08b",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -814,7 +1250,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "7d5610c0-fb0a-42c8-aded-4811c8f5781f",
+                "reference" : "66de277a-7a2a-4e87-a4ac-4ed7aebafab5",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -873,7 +1309,7 @@
                           "value" : "../API/formFileUpload"
                         }
                       },
-                      "reference" : "a7ca35c7-2a99-4a5e-b65f-829d24a7f7e3",
+                      "reference" : "8aa58558-2695-4cbd-89b1-6e187c441d97",
                       "hasValidationError" : false,
                       "id" : "pbUpload",
                       "description" : ""
@@ -957,7 +1393,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "8ddf1e4a-6f68-4260-a65a-217a924c53b2",
+                "reference" : "194983f9-4967-447a-b85f-90eb08cab409",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -1009,7 +1445,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "7a93d33a-b38c-41ad-b855-116932c7bb6b",
+                "reference" : "9586b861-3f56-4625-9cbd-a5523759acb6",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -1026,13 +1462,18 @@
       "value" : [
         "{\r",
         "  \"solicitudAusenciaInput\" : {\r",
+        "    \"nombre_usuario\" : \"\",\r",
         "    \"nombre_empleado\" : \"\",\r",
         "    \"apellido_empleado\" : \"\",\r",
-        "    \"descripcion\" : \"\",\r",
+        "    \"area\" : \"\",\r",
         "    \"tipo_ausencia\" : \"\",\r",
         "    \"fecha_solicitud\" : null,\r",
         "    \"fecha_inicio\" : null,\r",
         "    \"fecha_fin\" : null,\r",
+        "    \"fecha_nacimiento\" : null,\r",
+        "    \"fecha_contratacion\" : null,\r",
+        "    \"dias_permiso_especial\" : 0,\r",
+        "    \"dias_vacaciones_tradicionales\" : 0,\r",
         "    \"comentarios\" : \"\",\r",
         "    \"aprobado_Jefe\" : false\r",
         "  },\r",
@@ -1069,14 +1510,14 @@
   },
   "assets" : [
     {
-      "id" : "e661ef70-0ff0-4049-a864-0b215cfd816d",
+      "id" : "83e02079-c8c0-4a41-b6ba-e33b4f1584b9",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "fdfa7316-6190-4d6c-88a0-5928ff5845ee",
+      "id" : "69660aa0-6c60-49be-8b53-0e930a4a07e3",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
