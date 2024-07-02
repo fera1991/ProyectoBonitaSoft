@@ -1,10 +1,10 @@
 {
-  "id" : "Validacion4",
-  "name" : "Validacion4",
+  "id" : "Expediente",
+  "name" : "Expediente",
   "type" : "form",
-  "uuid" : "08fdc67f-edd0-4ead-8951-993c34b8f29c",
+  "uuid" : "13cc102b-09d2-45c5-af12-29f3873a0e12",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1719914647600,
+  "lastUpdate" : 1719914046662,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "64bcaa46-65f5-4e66-9060-61336b6120a0",
+        "reference" : "5e311a1e-07fa-4e3d-9f96-55225e20c733",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "9ac4a378-91aa-49d3-ae22-646d6e7a318a",
+              "reference" : "39a31086-d3ea-4362-bbf5-2b80cdd5b3bc",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "ee90be66-2161-47b9-9f11-431da6412f05",
+              "reference" : "587b40af-e2ea-4701-8783-3382fc0e0173",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -126,7 +126,7 @@
             "value" : false
           }
         },
-        "reference" : "b619f588-ab07-40d0-b5c8-0511dca58314",
+        "reference" : "007cfc5b-e7e9-45b7-b8e1-b9f68f865f47",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -135,7 +135,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "7c5c6d52-5aad-4ede-a4b7-b7a7afea361c",
+          "reference" : "43269253-4ff5-42fc-8b43-f615eb4844c2",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -174,7 +174,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "f8774080-c6cb-4bdb-a128-360cc4c0fe95",
+                "reference" : "6d0d196c-164b-49a8-b8fa-24d5ba77e173",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -206,10 +206,100 @@
                     "value" : 12
                   }
                 },
-                "reference" : "7a461120-3ac1-44b9-ab16-b7c1a53a1e39",
+                "reference" : "15bec698-0a33-4a50-b59b-c93113a4260c",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Nombre_usuario"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "solicitudAusencia.nombre_usuario"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "b0d29ea4-4be1-429d-9512-e6b8db0d8069",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
                   [
                     {
                       "type" : "component",
@@ -294,7 +384,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "cbc40710-e790-4346-9bcc-206a3b9d427a",
+                      "reference" : "964e8eab-384f-45bd-8021-a9208cacade5",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -382,13 +472,101 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "b4ef30ac-9d8c-4d6f-9932-fdc7d9f4c5d0",
+                      "reference" : "a3ef3928-cbdf-401c-9444-f042ddf4ba7e",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
                     }
                   ],
                   [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Area"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "solicitudAusencia.area"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "481ec26c-ec99-48ca-a342-27796c665336",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    },
                     {
                       "type" : "component",
                       "dimension" : {
@@ -472,93 +650,10 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "9a4d46a8-92bb-4ea6-93b6-de080f4bc3ee",
+                      "reference" : "a7142948-0130-48b0-ae84-7578be48108b",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
-                    },
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "xs" : 12,
-                        "sm" : 12,
-                        "md" : 6,
-                        "lg" : 6
-                      },
-                      "propertyValues" : {
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Nombre_usuario"
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
-                        },
-                        "placeholder" : {
-                          "type" : "interpolation"
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "solicitudAusencia.nombre_usuario"
-                        },
-                        "debounce" : {
-                          "type" : "constant",
-                          "value" : 0
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "e2c0e593-648c-4b13-8a45-da1f9b2d7687",
-                      "hasValidationError" : false,
-                      "id" : "pbInput"
                     }
                   ],
                   [
@@ -635,7 +730,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "683fda3d-722e-4a12-b968-da71a514540f",
+                      "reference" : "5fd045b0-4222-4678-9e9e-be65da70adac",
                       "hasValidationError" : false,
                       "id" : "pbDatePicker",
                       "description" : ""
@@ -713,7 +808,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "0bbc1fd6-799b-489c-8323-56fa6ba350e9",
+                      "reference" : "c8d0f1b5-7c88-4bdf-bd3d-c4545dc6b54e",
                       "hasValidationError" : false,
                       "id" : "pbDatePicker",
                       "description" : ""
@@ -726,7 +821,7 @@
                         "md" : 6,
                         "sm" : 12,
                         "xs" : 12,
-                        "lg" : 12
+                        "lg" : 6
                       },
                       "propertyValues" : {
                         "labelHidden" : {
@@ -803,7 +898,185 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "5af61b22-330e-4077-995f-36ccff47ec79",
+                      "reference" : "43230622-e66a-4ac3-a4a8-5aace4667731",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 6,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 6
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Dias_vacaciones_tradicionales"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "number"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "solicitudAusencia.dias_vacaciones_tradicionales"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "6a94e9dd-9f06-49b4-96a9-91c278f16926",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Comentarios"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "solicitudAusencia.comentarios"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "8b1bb022-c730-4720-ba97-76903ba018a9",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -838,7 +1111,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "5b8acc85-b059-4c2f-9e03-e70981470c47",
+                "reference" : "eb93750c-a871-48ca-b280-17642434f952",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -877,7 +1150,7 @@
                           "value" : 12
                         }
                       },
-                      "reference" : "493b68ef-2912-4846-a18a-59c5e800dda9",
+                      "reference" : "9b46f150-614a-440a-b698-7e39a492f3dd",
                       "hasValidationError" : false,
                       "id" : "pbTitle",
                       "description" : ""
@@ -887,21 +1160,25 @@
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
                         "xs" : 12,
+                        "sm" : 12,
+                        "md" : 12,
                         "lg" : 12
                       },
                       "propertyValues" : {
-                        "showPreview" : {
+                        "cssClasses" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : ""
                         },
                         "hidden" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "cssClasses" : {
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "Process document"
+                        },
+                        "url" : {
                           "type" : "constant",
                           "value" : ""
                         },
@@ -909,83 +1186,14 @@
                           "type" : "variable",
                           "value" : "context.docSolicitudAusencia_ref"
                         },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "Process document"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "url" : {
-                          "type" : "constant"
-                        }
-                      },
-                      "reference" : "b34e7fb9-37a4-4218-ab0b-99a9769a6b10",
-                      "hasValidationError" : false,
-                      "id" : "pbFileViewer",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
+                        "showPreview" : {
                           "type" : "constant",
                           "value" : true
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 4
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Doc Solicitud Ausencia"
-                        },
-                        "placeholder" : {
-                          "type" : "constant",
-                          "value" : "Browse to update the file..."
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "context.docSolicitudAusencia_ref.newValue"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "url" : {
-                          "type" : "constant",
-                          "value" : "../API/formFileUpload"
                         }
                       },
-                      "reference" : "107f9c10-d0a4-429a-8007-4b82df047859",
+                      "reference" : "ced716f9-7f97-4236-b6f0-ba43d5079c17",
                       "hasValidationError" : false,
-                      "id" : "pbUpload",
-                      "description" : ""
+                      "id" : "pbFileViewer"
                     }
                   ]
                 ]
@@ -1015,7 +1223,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Valiciones"
+                    "value" : "Expediente"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -1026,7 +1234,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "0a05041a-f04f-44ab-8010-acdf7d761eeb",
+                "reference" : "5309e27e-846f-4d63-92fa-58a3591de298",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -1034,156 +1242,495 @@
             ],
             [
               {
-                "type" : "component",
+                "type" : "container",
                 "dimension" : {
-                  "xs" : 12,
-                  "sm" : 12,
                   "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
                   "lg" : 12
                 },
                 "propertyValues" : {
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
+                  "repeatedCollection" : {
+                    "type" : "variable"
                   },
                   "hidden" : {
                     "type" : "constant",
                     "value" : false
                   },
-                  "allowHTML" : {
+                  "cssClasses" : {
                     "type" : "constant",
-                    "value" : false
+                    "value" : ""
                   },
-                  "labelHidden" : {
+                  "dimension" : {
                     "type" : "constant",
-                    "value" : true
-                  },
-                  "label" : {
-                    "type" : "interpolation",
-                    "value" : "Default label"
-                  },
-                  "labelPosition" : {
-                    "type" : "constant",
-                    "value" : "top"
-                  },
-                  "labelWidth" : {
-                    "type" : "constant",
-                    "value" : 4
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "Nota: Se verificará que no se haya excedido el límite de 2 días acumulados para permisos especiales este año."
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
+                    "value" : 12
                   }
                 },
-                "reference" : "413306da-dd6b-4982-a60a-d400186b1d48",
+                "reference" : "9f95810e-05b2-45ad-9ddb-cba0cba136d9",
                 "hasValidationError" : false,
-                "id" : "pbText"
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Id_empleado"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "text"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "expediente.id_empleado"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "73c1b860-7d30-4799-92d8-ae5224260016",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Dias_vacaciones_tomadas"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "number"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "expediente.dias_vacaciones_tomadas"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "19165026-e597-4793-9038-cc9d9effb4a3",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Dias_cumpleanos_tomados"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "number"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "expediente.dias_cumpleanos_tomados"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "5631aa5c-3d32-4d99-9184-fb711020bb3c",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Dias_permiso_discrecional_tomado"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "number"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "expediente.dias_permiso_discrecional_tomado"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "7fd752cd-7b66-4b16-882e-8a2c6d436935",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Dias_permiso_especial_tomado"
+                        },
+                        "placeholder" : {
+                          "type" : "constant"
+                        },
+                        "type" : {
+                          "type" : "constant",
+                          "value" : "number"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "expediente.dias_permiso_especial_tomado"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
+                        }
+                      },
+                      "reference" : "dcc71662-7712-45ce-8d93-c45f75f4f0b1",
+                      "hasValidationError" : false,
+                      "id" : "pbInput",
+                      "description" : ""
+                    }
+                  ]
+                ]
               }
             ],
             [
               {
                 "type" : "component",
                 "dimension" : {
-                  "xs" : 12,
-                  "sm" : 12,
-                  "md" : 6,
-                  "lg" : 6
-                },
-                "propertyValues" : {
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "disabled" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "allowHTML" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "label" : {
-                    "type" : "interpolation",
-                    "value" : "Denegar"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "center"
-                  },
-                  "buttonStyle" : {
-                    "type" : "constant",
-                    "value" : "danger"
-                  },
-                  "action" : {
-                    "type" : "constant",
-                    "value" : "Submit task"
-                  },
-                  "assign" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "url" : {
-                    "type" : "interpolation"
-                  },
-                  "responseStatusCode" : {
-                    "type" : "variable"
-                  },
-                  "dataToSend" : {
-                    "type" : "expression",
-                    "value" : "formOutput2"
-                  },
-                  "dataFromSuccess" : {
-                    "type" : "variable"
-                  },
-                  "closeOnSuccess" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "dataFromError" : {
-                    "type" : "variable",
-                    "value" : "formOutput2._submitError"
-                  },
-                  "targetUrlOnSuccess" : {
-                    "type" : "interpolation",
-                    "value" : "/bonita"
-                  },
-                  "collectionToModify" : {
-                    "type" : "variable"
-                  },
-                  "modalId" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "collectionPosition" : {
-                    "type" : "constant",
-                    "value" : "Last"
-                  },
-                  "valueToAdd" : {
-                    "type" : "constant"
-                  },
-                  "removeItem" : {
-                    "type" : "variable"
-                  }
-                },
-                "reference" : "82d5cc0c-92c2-4680-beff-e552db480cb2",
-                "hasValidationError" : false,
-                "id" : "pbButton"
-              },
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 6,
+                  "md" : 12,
                   "sm" : 12,
                   "xs" : 12,
-                  "lg" : 6
+                  "lg" : 12
                 },
                 "propertyValues" : {
                   "removeItem" : {
@@ -1199,11 +1746,11 @@
                   },
                   "buttonStyle" : {
                     "type" : "constant",
-                    "value" : "success"
+                    "value" : "primary"
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Aprobar"
+                    "value" : "Submit"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -1239,8 +1786,8 @@
                     "type" : "expression"
                   },
                   "disabled" : {
-                    "type" : "constant",
-                    "value" : false
+                    "type" : "expression",
+                    "value" : "$form.$invalid"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -1249,30 +1796,9 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  },
-                  "assign" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "url" : {
-                    "type" : "interpolation"
-                  },
-                  "responseStatusCode" : {
-                    "type" : "variable"
-                  },
-                  "dataFromSuccess" : {
-                    "type" : "variable"
-                  },
-                  "closeOnSuccess" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "modalId" : {
-                    "type" : "constant",
-                    "value" : ""
                   }
                 },
-                "reference" : "cb2fae2e-18db-485e-aff1-66663fd59db5",
+                "reference" : "6f06cb7f-bb75-421d-8421-5da4706acec2",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -1322,72 +1848,12 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  },
-                  "labelPosition" : {
-                    "type" : "constant",
-                    "value" : "top"
-                  },
-                  "labelWidth" : {
-                    "type" : "constant",
-                    "value" : 4
                   }
                 },
-                "reference" : "7f9c33ec-0c91-4561-b86f-52ec721a20b5",
+                "reference" : "30a4961e-354a-41e2-8903-92172d994236",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
-              }
-            ],
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "xs" : 12,
-                  "sm" : 12,
-                  "md" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : "alert alert-danger col-lg-6 col-lg-offset-3"
-                  },
-                  "hidden" : {
-                    "type" : "expression",
-                    "value" : "!formOutput._submitError.message"
-                  },
-                  "allowHTML" : {
-                    "type" : "constant",
-                    "value" : true
-                  },
-                  "labelHidden" : {
-                    "type" : "constant",
-                    "value" : true
-                  },
-                  "label" : {
-                    "type" : "interpolation",
-                    "value" : "Default label"
-                  },
-                  "labelPosition" : {
-                    "type" : "constant",
-                    "value" : "top"
-                  },
-                  "labelWidth" : {
-                    "type" : "constant",
-                    "value" : 4
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "<strong>Debug message</strong>\n<br/>\n{{formOutput2._submitError.message}}\n{{submit_errors_list2}}"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  }
-                },
-                "reference" : "27fa7372-532d-41ad-aab5-2f69deb7d9b7",
-                "hasValidationError" : false,
-                "id" : "pbText"
               }
             ]
           ]
@@ -1400,6 +1866,13 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "expediente" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.expediente_ref.link}}"
       ],
       "exposed" : false
     },
@@ -1428,7 +1901,7 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.solicitudAusencia && $data.context && $data.valiciones ){",
+        "if( $data.solicitudAusencia && $data.context && $data.expediente ){",
         "\treturn {",
         "\t\t//map solicitudAusencia variable to expected task contract input",
         "\t\tsolicitudAusenciaInput: {",
@@ -1453,13 +1926,13 @@
         "\t\t\ttempPath: $data.context.docSolicitudAusencia_ref.newValue && $data.context.docSolicitudAusencia_ref.newValue.tempPath ? $data.context.docSolicitudAusencia_ref.newValue.tempPath : null,",
         "\t\t\tcontentType: $data.context.docSolicitudAusencia_ref.newValue && $data.context.docSolicitudAusencia_ref.newValue.contentType ? $data.context.docSolicitudAusencia_ref.newValue.contentType : null",
         "\t\t},",
-        "\t\t//map valiciones variable to expected task contract input",
-        "\t\tvalicionesInput: {",
-        "\t\t\tvalidacion_vobo_jefe: $data.valiciones.validacion_vobo_jefe !== undefined ? $data.valiciones.validacion_vobo_jefe : null,",
-        "\t\t\tvalidacion_antiguedad: $data.valiciones.validacion_antiguedad !== undefined ? $data.valiciones.validacion_antiguedad : null,",
-        "\t\t\tvalidacion_cumpleanos: $data.valiciones.validacion_cumpleanos !== undefined ? $data.valiciones.validacion_cumpleanos : null,",
-        "\t\t\tvalidacion_permiso_especial: true,",
-        "\t\t\tvalidacion_vacaciones_tradicionales: $data.valiciones.validacion_vacaciones_tradicionales !== undefined ? $data.valiciones.validacion_vacaciones_tradicionales : null",
+        "\t\t//map expediente variable to expected task contract input",
+        "\t\texpedienteInput: {",
+        "\t\t\tid_empleado: $data.expediente.id_empleado !== undefined ? $data.expediente.id_empleado : null,",
+        "\t\t\tdias_vacaciones_tomadas: $data.expediente.dias_vacaciones_tomadas !== undefined ? $data.expediente.dias_vacaciones_tomadas : null,",
+        "\t\t\tdias_cumpleanos_tomados: $data.expediente.dias_cumpleanos_tomados !== undefined ? $data.expediente.dias_cumpleanos_tomados : null,",
+        "\t\t\tdias_permiso_discrecional_tomado: $data.expediente.dias_permiso_discrecional_tomado !== undefined ? $data.expediente.dias_permiso_discrecional_tomado : null,",
+        "\t\t\tdias_permiso_especial_tomado: $data.expediente.dias_permiso_especial_tomado !== undefined ? $data.expediente.dias_permiso_especial_tomado : null",
         "\t\t}",
         "\t}",
         "}"
@@ -1473,89 +1946,26 @@
       ],
       "exposed" : false
     },
-    "valiciones" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.valiciones_ref.link}}"
-      ],
-      "exposed" : false
-    },
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
         "id"
       ],
       "exposed" : false
-    },
-    "formOutput2" : {
-      "type" : "expression",
-      "value" : [
-        "if( $data.solicitudAusencia && $data.context && $data.valiciones ){",
-        "\treturn {",
-        "\t\t//map solicitudAusencia variable to expected task contract input",
-        "\t\tsolicitudAusenciaInput: {",
-        "\t\t\tnombre_usuario: $data.solicitudAusencia.nombre_usuario !== undefined ? $data.solicitudAusencia.nombre_usuario : null,",
-        "\t\t\tnombre_empleado: $data.solicitudAusencia.nombre_empleado !== undefined ? $data.solicitudAusencia.nombre_empleado : null,",
-        "\t\t\tapellido_empleado: $data.solicitudAusencia.apellido_empleado !== undefined ? $data.solicitudAusencia.apellido_empleado : null,",
-        "\t\t\tarea: $data.solicitudAusencia.area !== undefined ? $data.solicitudAusencia.area : null,",
-        "\t\t\ttipo_ausencia: $data.solicitudAusencia.tipo_ausencia !== undefined ? $data.solicitudAusencia.tipo_ausencia : null,",
-        "\t\t\tfecha_solicitud: $data.solicitudAusencia.fecha_solicitud !== undefined ? $data.solicitudAusencia.fecha_solicitud : null,",
-        "\t\t\tfecha_inicio: $data.solicitudAusencia.fecha_inicio !== undefined ? $data.solicitudAusencia.fecha_inicio : null,",
-        "\t\t\tfecha_fin: $data.solicitudAusencia.fecha_fin !== undefined ? $data.solicitudAusencia.fecha_fin : null,",
-        "\t\t\tfecha_nacimiento: $data.solicitudAusencia.fecha_nacimiento !== undefined ? $data.solicitudAusencia.fecha_nacimiento : null,",
-        "\t\t\tfecha_contratacion: $data.solicitudAusencia.fecha_contratacion !== undefined ? $data.solicitudAusencia.fecha_contratacion : null,",
-        "\t\t\tdias_permiso_especial: $data.solicitudAusencia.dias_permiso_especial !== undefined ? $data.solicitudAusencia.dias_permiso_especial : null,",
-        "\t\t\tdias_vacaciones_tradicionales: $data.solicitudAusencia.dias_vacaciones_tradicionales !== undefined ? $data.solicitudAusencia.dias_vacaciones_tradicionales : null,",
-        "\t\t\tcomentarios: $data.solicitudAusencia.comentarios !== undefined ? $data.solicitudAusencia.comentarios : null,",
-        "\t\t\taprobado_Jefe: $data.solicitudAusencia.aprobado_Jefe !== undefined ? $data.solicitudAusencia.aprobado_Jefe : null",
-        "\t\t},",
-        "\t\tdocSolicitudAusenciaDocumentInput: {",
-        "\t\t\tid: $data.context.docSolicitudAusencia_ref && $data.context.docSolicitudAusencia_ref.id ? $data.context.docSolicitudAusencia_ref.id.toString() : null,",
-        "\t\t\tfilename: $data.context.docSolicitudAusencia_ref.newValue && $data.context.docSolicitudAusencia_ref.newValue.filename ? $data.context.docSolicitudAusencia_ref.newValue.filename : null,",
-        "\t\t\ttempPath: $data.context.docSolicitudAusencia_ref.newValue && $data.context.docSolicitudAusencia_ref.newValue.tempPath ? $data.context.docSolicitudAusencia_ref.newValue.tempPath : null,",
-        "\t\t\tcontentType: $data.context.docSolicitudAusencia_ref.newValue && $data.context.docSolicitudAusencia_ref.newValue.contentType ? $data.context.docSolicitudAusencia_ref.newValue.contentType : null",
-        "\t\t},",
-        "\t\t//map valiciones variable to expected task contract input",
-        "\t\tvalicionesInput: {",
-        "\t\t\tvalidacion_vobo_jefe: $data.valiciones.validacion_vobo_jefe !== undefined ? $data.valiciones.validacion_vobo_jefe : null,",
-        "\t\t\tvalidacion_antiguedad: $data.valiciones.validacion_antiguedad !== undefined ? $data.valiciones.validacion_antiguedad : null,",
-        "\t\t\tvalidacion_cumpleanos: $data.valiciones.validacion_cumpleanos !== undefined ? $data.valiciones.validacion_cumpleanos : null,",
-        "\t\t\tvalidacion_permiso_especial: false,",
-        "\t\t\tvalidacion_vacaciones_tradicionales: $data.valiciones.validacion_vacaciones_tradicionales !== undefined ? $data.valiciones.validacion_vacaciones_tradicionales : null",
-        "\t\t}",
-        "\t}",
-        "}"
-      ],
-      "exposed" : false
-    },
-    "submit_errors_list2" : {
-      "type" : "expression",
-      "value" : [
-        "if($data.formOutput2 && $data.formOutput2._submitError && $data.formOutput2._submitError.explanations){\r",
-        "\tconst liElements = $data.formOutput2._submitError.explanations\r",
-        "\t\t.filter(cause => cause !== null)\r",
-        "\t\t.map(cause => \"<li>\" + cause + \"</li>\")\r",
-        "\t\t.join('');\r",
-        "\tif(liElements){\r",
-        "\t\treturn \"<ul>\" + liElements + \"</ul>\";\r",
-        "\t}\r",
-        "}\r"
-      ],
-      "exposed" : false
     }
   },
   "assets" : [
     {
-      "id" : "e2e82541-8ffa-45ac-ae9d-90ae76753b0c",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "419f1355-72f4-4403-8143-0f5311affd42",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "4a60d0ed-975a-4a74-9dde-fd4542f8c377",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "b01e1773-ebd0-4765-8664-1e9159b1c069",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }

@@ -726,7 +726,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_5dcnBzesEe-eXa_SOZdcew" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_5dcnBjesEe-eXa_SOZdcew" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_88VIuTesEe-eXa_SOZdcew">
-            <targetForm xmi:type="expression:Expression" xmi:id="_Ei2YcDhNEe-_t_YZFm_K4Q" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_ARSjADhVEe-_t_YZFm_K4Q" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_88VIuDesEe-eXa_SOZdcew"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_88VIuzesEe-eXa_SOZdcew" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -2309,7 +2309,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_IDmqCDerEe-eXa_SOZdcew" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_IDmqBzerEe-eXa_SOZdcew" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_JAd66jerEe-eXa_SOZdcew">
-            <targetForm xmi:type="expression:Expression" xmi:id="_Ei2YcThNEe-_t_YZFm_K4Q" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_ARSjAThVEe-_t_YZFm_K4Q" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_JAd66TerEe-eXa_SOZdcew"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_JAd67DerEe-eXa_SOZdcew" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -2336,7 +2336,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_aJFBqDerEe-eXa_SOZdcew" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_aJFBpzerEe-eXa_SOZdcew" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_c0CzGTerEe-eXa_SOZdcew">
-            <targetForm xmi:type="expression:Expression" xmi:id="_Ei2YcjhNEe-_t_YZFm_K4Q" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_ARSjAjhVEe-_t_YZFm_K4Q" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_c0CzGDerEe-eXa_SOZdcew"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_c0CzGzerEe-eXa_SOZdcew" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -2345,15 +2345,262 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_R94h0TerEe-eXa_SOZdcew" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_R94h0DerEe-eXa_SOZdcew" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_R94h0jerEe-eXa_SOZdcew" name="" content="" returnTypeFixed="true"/>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmk2zhXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmk3DhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmk3ThXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmk3jhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.nombre_usuario" content="solicitudAusenciaInput?.nombre_usuario" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmk3zhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmk4DhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setNombre_usuario">
+              <inputTypes>java.lang.String</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmk4ThXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmk4jhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmk4zhXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmk5DhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.nombre_empleado" content="solicitudAusenciaInput?.nombre_empleado" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmk5ThXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmk5jhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setNombre_empleado">
+              <inputTypes>java.lang.String</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmk5zhXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmk6DhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmk6ThXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmk6jhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.apellido_empleado" content="solicitudAusenciaInput?.apellido_empleado" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmk6zhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmk7DhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setApellido_empleado">
+              <inputTypes>java.lang.String</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmk7ThXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmk7jhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmk7zhXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmk8DhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.area" content="solicitudAusenciaInput?.area" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmk8ThXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmk8jhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setArea">
+              <inputTypes>java.lang.String</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmk8zhXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmk9DhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmk9ThXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmk9jhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.tipo_ausencia" content="solicitudAusenciaInput?.tipo_ausencia" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmk9zhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmk-DhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setTipo_ausencia">
+              <inputTypes>java.lang.String</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmk-ThXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmk-jhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmk-zhXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmk_DhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.fecha_solicitud" content="solicitudAusenciaInput?.fecha_solicitud" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.LocalDate">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmk_ThXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmk_jhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setFecha_solicitud">
+              <inputTypes>java.time.LocalDate</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmk_zhXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmlADhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmlAThXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmlAjhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.fecha_inicio" content="solicitudAusenciaInput?.fecha_inicio" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.LocalDate">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmlAzhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmlBDhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setFecha_inicio">
+              <inputTypes>java.time.LocalDate</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmlBThXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmlBjhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmlBzhXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmlCDhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.fecha_fin" content="solicitudAusenciaInput?.fecha_fin" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.LocalDate">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmlCThXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmlCjhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setFecha_fin">
+              <inputTypes>java.time.LocalDate</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmlCzhXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmlDDhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmlDThXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmlDjhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.fecha_nacimiento" content="solicitudAusenciaInput?.fecha_nacimiento" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.LocalDate">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmlDzhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmlEDhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setFecha_nacimiento">
+              <inputTypes>java.time.LocalDate</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmlEThXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmlEjhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmlEzhXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmlFDhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.fecha_contratacion" content="solicitudAusenciaInput?.fecha_contratacion" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.time.LocalDate">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmlFThXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmlFjhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setFecha_contratacion">
+              <inputTypes>java.time.LocalDate</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmlFzhXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmlGDhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmlGThXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmlGjhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.dias_permiso_especial" content="solicitudAusenciaInput?.dias_permiso_especial" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmlGzhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmlHDhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setDias_permiso_especial">
+              <inputTypes>java.lang.Integer</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmlHThXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmlHjhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmlHzhXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmlIDhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.dias_vacaciones_tradicionales" content="solicitudAusenciaInput?.dias_vacaciones_tradicionales" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmlIThXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmlIjhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setDias_vacaciones_tradicionales">
+              <inputTypes>java.lang.Integer</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmlIzhXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmlJDhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmlJThXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmlJjhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.comentarios" content="solicitudAusenciaInput?.comentarios" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmlJzhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmlKDhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setComentarios">
+              <inputTypes>java.lang.String</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_eCmlKThXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_eCmlKjhXEe-_t_YZFm_K4Q" name="solicitudAusencia" content="solicitudAusencia" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.SolicitudAusencia">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_eCmlKzhXEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_eCmlLDhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput.aprobado_Jefe" content="solicitudAusenciaInput?.aprobado_Jefe" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_eCmlLThXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_eCmlLjhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setAprobado_Jefe">
+              <inputTypes>java.lang.Boolean</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_ed0hIThXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_ed0hIjhXEe-_t_YZFm_K4Q" name="docSolicitudAusencia" content="docSolicitudAusencia" type="DOCUMENT_REF_TYPE">
+              <referencedElements xmi:type="process:Document" xmi:id="_ed0hIzhXEe-_t_YZFm_K4Q" name="docSolicitudAusencia"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_ed0hJDhXEe-_t_YZFm_K4Q" name="docSolicitudAusenciaDocumentInput" content="docSolicitudAusenciaDocumentInput" type="TYPE_CONTRACT_INPUT" returnType="org.bonitasoft.engine.bpm.contract.FileInputValue">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_ed0hJThXEe-_t_YZFm_K4Q" name="docSolicitudAusenciaDocumentInput" type="FILE" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_ed0hJjhXEe-_t_YZFm_K4Q" type="DOCUMENT_CREATE_UPDATE"/>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_fFN4VzhXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_fFN4WDhXEe-_t_YZFm_K4Q" name="expediente" content="expediente" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.Expediente">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_fFN4WThXEe-_t_YZFm_K4Q" name="expediente" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.Expediente"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_fFN4WjhXEe-_t_YZFm_K4Q" name="expedienteInput.id_empleado" content="def user = apiAccessor.getIdentityAPI().getUserByUserName(solicitudAusencia.nombre_usuario);&#xD;&#xA;&#xD;&#xA;return user.id" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Long">
+              <referencedElements xmi:type="expression:Expression" xmi:id="_VWK4wDhaEe-_t_YZFm_K4Q" name="apiAccessor" content="apiAccessor" type="TYPE_ENGINE_CONSTANT" returnType="org.bonitasoft.engine.api.APIAccessor"/>
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_VWK4wThaEe-_t_YZFm_K4Q" name="solicitudAusencia" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.SolicitudAusencia"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_fFN4XDhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setId_empleado">
+              <inputTypes>java.lang.Long</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_fFN4XThXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_fFN4XjhXEe-_t_YZFm_K4Q" name="expediente" content="expediente" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.Expediente">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_fFN4XzhXEe-_t_YZFm_K4Q" name="expediente" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.Expediente"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_fFN4YDhXEe-_t_YZFm_K4Q" name="expedienteInput.dias_vacaciones_tomadas" content="expedienteInput?.dias_vacaciones_tomadas" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_fFN4YThXEe-_t_YZFm_K4Q" name="expedienteInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_fFN4YjhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setDias_vacaciones_tomadas">
+              <inputTypes>java.lang.Integer</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_fFN4YzhXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_fFN4ZDhXEe-_t_YZFm_K4Q" name="expediente" content="expediente" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.Expediente">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_fFN4ZThXEe-_t_YZFm_K4Q" name="expediente" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.Expediente"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_fFN4ZjhXEe-_t_YZFm_K4Q" name="expedienteInput.dias_cumpleanos_tomados" content="expedienteInput?.dias_cumpleanos_tomados" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_fFN4ZzhXEe-_t_YZFm_K4Q" name="expedienteInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_fFN4aDhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setDias_cumpleanos_tomados">
+              <inputTypes>java.lang.Integer</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_fFN4aThXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_fFN4ajhXEe-_t_YZFm_K4Q" name="expediente" content="expediente" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.Expediente">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_fFN4azhXEe-_t_YZFm_K4Q" name="expediente" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.Expediente"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_fFN4bDhXEe-_t_YZFm_K4Q" name="expedienteInput.dias_permiso_discrecional_tomado" content="expedienteInput?.dias_permiso_discrecional_tomado" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_fFN4bThXEe-_t_YZFm_K4Q" name="expedienteInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_fFN4bjhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setDias_permiso_discrecional_tomado">
+              <inputTypes>java.lang.Integer</inputTypes>
+            </operator>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_fFN4bzhXEe-_t_YZFm_K4Q">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_fFN4cDhXEe-_t_YZFm_K4Q" name="expediente" content="expediente" type="TYPE_VARIABLE" returnType="com.gadget.galaxy.model.Expediente">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_fFN4cThXEe-_t_YZFm_K4Q" name="expediente" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.Expediente"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_fFN4cjhXEe-_t_YZFm_K4Q" name="expedienteInput.dias_permiso_especial_tomado" content="expedienteInput?.dias_permiso_especial_tomado" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Integer">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_fFN4czhXEe-_t_YZFm_K4Q" name="expedienteInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_fFN4dDhXEe-_t_YZFm_K4Q" type="JAVA_METHOD" expression="setDias_permiso_especial_tomado">
+              <inputTypes>java.lang.Integer</inputTypes>
+            </operator>
+          </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_R94h0zerEe-eXa_SOZdcew" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_R94h1DerEe-eXa_SOZdcew" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_R94h1TerEe-eXa_SOZdcew" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_R94h1zerEe-eXa_SOZdcew" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_R94h1jerEe-eXa_SOZdcew" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_HSHtSTesEe-eXa_SOZdcew">
-            <targetForm xmi:type="expression:Expression" xmi:id="_Ei2YczhNEe-_t_YZFm_K4Q" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_f7GXcDhXEe-_t_YZFm_K4Q" name="Expediente" content="13cc102b-09d2-45c5-af12-29f3873a0e12" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_HSHtSDesEe-eXa_SOZdcew"/>
+          <contract xmi:type="process:Contract" xmi:id="_HSHtSDesEe-eXa_SOZdcew">
+            <inputs xmi:type="process:ContractInput" xmi:id="_eCmkwDhXEe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX" dataReference="solicitudAusencia" createMode="false">
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkwThXEe-_t_YZFm_K4Q" name="nombre_usuario" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkwjhXEe-_t_YZFm_K4Q" name="nombre_empleado" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkwzhXEe-_t_YZFm_K4Q" name="apellido_empleado" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkxDhXEe-_t_YZFm_K4Q" name="area" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkxThXEe-_t_YZFm_K4Q" name="tipo_ausencia" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkxjhXEe-_t_YZFm_K4Q" name="fecha_solicitud" type="LOCALDATE" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkxzhXEe-_t_YZFm_K4Q" name="fecha_inicio" type="LOCALDATE" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkyDhXEe-_t_YZFm_K4Q" name="fecha_fin" type="LOCALDATE" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkyThXEe-_t_YZFm_K4Q" name="fecha_nacimiento" type="LOCALDATE" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkyjhXEe-_t_YZFm_K4Q" name="fecha_contratacion" type="LOCALDATE" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkyzhXEe-_t_YZFm_K4Q" name="dias_permiso_especial" type="INTEGER" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkzDhXEe-_t_YZFm_K4Q" name="dias_vacaciones_tradicionales" type="INTEGER" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkzThXEe-_t_YZFm_K4Q" name="comentarios" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_eCmkzjhXEe-_t_YZFm_K4Q" name="aprobado_Jefe" type="BOOLEAN" createMode="false"/>
+            </inputs>
+            <inputs xmi:type="process:ContractInput" xmi:id="_ed0hIDhXEe-_t_YZFm_K4Q" name="docSolicitudAusenciaDocumentInput" type="FILE" dataReference="docSolicitudAusencia" createMode="false"/>
+            <inputs xmi:type="process:ContractInput" xmi:id="_fFN4UDhXEe-_t_YZFm_K4Q" name="expedienteInput" type="COMPLEX" dataReference="expediente" createMode="false">
+              <inputs xmi:type="process:ContractInput" xmi:id="_fFN4UThXEe-_t_YZFm_K4Q" name="id_empleado" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_fFN4UjhXEe-_t_YZFm_K4Q" name="dias_vacaciones_tomadas" type="INTEGER" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_fFN4UzhXEe-_t_YZFm_K4Q" name="dias_cumpleanos_tomados" type="INTEGER" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_fFN4VDhXEe-_t_YZFm_K4Q" name="dias_permiso_discrecional_tomado" type="INTEGER" createMode="false"/>
+              <inputs xmi:type="process:ContractInput" xmi:id="_fFN4VThXEe-_t_YZFm_K4Q" name="dias_permiso_especial_tomado" type="INTEGER" createMode="false"/>
+            </inputs>
+            <constraints xmi:type="process:ContractConstraint" xmi:id="_fFN4VjhXEe-_t_YZFm_K4Q" expression="!expedienteInput?.id_empleado || expedienteInput?.id_empleado.isLong()" errorMessage="A Long value is expected for Expediente.id_empleado" name="type_long_expedienteInput_id_empleado">
+              <inputNames>expedienteInput</inputNames>
+            </constraints>
+          </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_HSHtSzesEe-eXa_SOZdcew" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
@@ -2364,6 +2611,9 @@
         <defaultValue xmi:type="expression:Expression" xmi:id="_kw8T2zhREe-_t_YZFm_K4Q" name="initSolicitudAusencia()" content="def solicitudAusenciaVar = new com.gadget.galaxy.model.SolicitudAusencia()&#xD;&#xA;solicitudAusenciaVar.nombre_usuario = solicitudAusenciaInput?.nombre_usuario&#xD;&#xA;solicitudAusenciaVar.nombre_empleado = solicitudAusenciaInput?.nombre_empleado&#xD;&#xA;solicitudAusenciaVar.apellido_empleado = solicitudAusenciaInput?.apellido_empleado&#xD;&#xA;solicitudAusenciaVar.area = solicitudAusenciaInput?.area&#xD;&#xA;solicitudAusenciaVar.tipo_ausencia = solicitudAusenciaInput?.tipo_ausencia&#xD;&#xA;solicitudAusenciaVar.fecha_solicitud = solicitudAusenciaInput?.fecha_solicitud&#xD;&#xA;solicitudAusenciaVar.fecha_inicio = solicitudAusenciaInput?.fecha_inicio&#xD;&#xA;solicitudAusenciaVar.fecha_fin = solicitudAusenciaInput?.fecha_fin&#xD;&#xA;solicitudAusenciaVar.fecha_nacimiento = solicitudAusenciaInput?.fecha_nacimiento&#xD;&#xA;solicitudAusenciaVar.fecha_contratacion = solicitudAusenciaInput?.fecha_contratacion&#xD;&#xA;solicitudAusenciaVar.dias_permiso_especial = solicitudAusenciaInput?.dias_permiso_especial&#xD;&#xA;solicitudAusenciaVar.dias_vacaciones_tradicionales = solicitudAusenciaInput?.dias_vacaciones_tradicionales&#xD;&#xA;solicitudAusenciaVar.comentarios = solicitudAusenciaInput?.comentarios&#xD;&#xA;solicitudAusenciaVar.aprobado_Jefe = solicitudAusenciaInput?.aprobado_Jefe&#xD;&#xA;return solicitudAusenciaVar" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="com.gadget.galaxy.model.SolicitudAusencia">
           <referencedElements xmi:type="process:ContractInput" xmi:id="_kw8T3DhREe-_t_YZFm_K4Q" name="solicitudAusenciaInput" type="COMPLEX"/>
         </defaultValue>
+      </data>
+      <data xmi:type="process:BusinessObjectData" xmi:id="_ttzkQDhVEe-_t_YZFm_K4Q" name="expediente" dataType="_gyBbdDdNEe-uw6mAfyvYFg" className="com.gadget.galaxy.model.Expediente">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_ttzkQThVEe-_t_YZFm_K4Q" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_gyBbVDdNEe-uw6mAfyvYFg">
         <targetForm xmi:type="expression:Expression" xmi:id="_mAK14DgjEe-nRYXFaeW9sw" name="InstanciarSolicitud" content="039f9186-d24a-427e-9233-ec4bda06f130" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
