@@ -7,26 +7,34 @@
       <lastName>Galdamez</lastName>
       <manager>Jefe1</manager>
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>fernando.galdamez@gadgetgalaxy.com</email>
+      </professionalData>
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
     <user userName="Jefe1">
       <manager></manager>
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>jefe1@gadgetgalaxy.com</email>
+      </professionalData>
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
     <user userName="ap1">
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>ap1@gadgetgalaxy.com</email>
+      </professionalData>
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
     <user userName="ac1">
       <personalData/>
-      <professionalData/>
+      <professionalData>
+        <email>ac1@gadgetgalaxy.com</email>
+      </professionalData>
       <password encrypted="false">123</password>
       <customUserInfoValues/>
     </user>
